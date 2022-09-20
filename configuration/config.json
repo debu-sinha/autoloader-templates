@@ -1,0 +1,13 @@
+{"raw_to_bronze": 
+ {"table_name": {"params": {"startOver": "No",
+                                                  "checkpointLocation": "s3://...",
+                                                  "inputFilePath": "s3://...",
+                                                  "maxFileAge":"15 days",
+                                                  "latestFirst":"false",
+                                                  "includeExistingFiles": "false",
+                                                  "autoloaderSchemaLocation": "s3://...",
+                                                  "triggerConfig": "availableNow"
+                                                   }
+                            }
+  }
+}
